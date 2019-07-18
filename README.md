@@ -17,5 +17,5 @@ closest cluster center in the visual words dictionary. Then each image will be c
 ![image](https://github.com/zhaxuefan/image/blob/master/7183.png)
 In Part 3 will evaluate the recognition system built. This will involve taking the test images and converting them to image histograms using the visual words dictionary and the function you wrote in Part 2. Next, for nearest neighbor classification,  use a
 histogram distance function to compare the new test image histogram to the training image histograms in order to classify the new test image. Doing this for all the test images will give idea of how good your recognition system.
-
+![image](https://github.com/zhaxuefan/image/blob/master/7184.png)
 In document classification, inverse document frequency (IDF) factor is incorporated which diminishes the weight of terms that occur very frequently in the document set.Improve system by IDF.
