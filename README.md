@@ -1,4 +1,7 @@
 # Computer-Vision
+Hough Transformation:
+Implementing some basic image processing algorithms and putting them together to build a Hough Transform based line detector.
+
 Bag of words:
 Building an end to end system that will determine which type of scene it is.
 ![image](https://github.com/zhaxuefan/image/blob/master/718.png)
