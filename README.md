@@ -38,3 +38,6 @@ Based on homography between two images, wrap image into the other one to get ima
 3D Reconstruction:
 Implement The Eight point algorithm and Seven Point Algorithm to get essential matrix and epipolar lines between to matched image. 
 Matrix construction compute the camera matrices and triangulate the 2D points to obtain the 3D scene structure. To obtain the Euclidean scene structure, first convert the fundamental matrix F to an essential matrix E. Examine the lecture notes and the textbook to find out how to do this when the internal camera calibration matrices K1 and K2 are known.Then get 3D visualization for plot.Bundle adjustment: RANSAC method seen in class can be applied to the problem of fundamental matrix estimation.
+
+
+Lucas Tracking: This is divided into three part: first is implement a simple Lucas-Kanade (LK) tracker with one single template; Secondly, the tracker will be generalized to accommodate for large appearance variance. The third part is to implement a motion subtraction method for tracking moving pixels in a scene. Finally studying efficient tracking which includes inverse composition and correlation filters.
