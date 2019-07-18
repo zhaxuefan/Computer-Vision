@@ -26,3 +26,10 @@ histogram distance function to compare the new test image histogram to the train
 ![image](https://github.com/zhaxuefan/image/blob/master/7184.png)
 
 In document classification, inverse document frequency (IDF) factor is incorporated which diminishes the weight of terms that occur very frequently in the document set.Improve system by IDF.
+
+
+
+Image matching, stitching and homographies: 
+proceeding towards showing how to transform between template images and source images, as is commonly used in panoramic photo stitching and augmented reality applications.
+In this implement, The BRIEF descriptor encodes information from a 9 × 9 patch p centered around the interest point at the characteristic scale of the interest point. Also implement how to overcome rotation problem in BRIEF. Implement Homography based on RANSAC and put it togother to get VR trials.
+Based on homography between two images, wrap image into the other one to get imageStitching.
